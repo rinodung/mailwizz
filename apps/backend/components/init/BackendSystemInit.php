@@ -111,7 +111,7 @@ class BackendSystemInit extends CApplicationComponent
         }
 
         // check version update right before executing the action!
-        $controller->onBeforeAction = [$this, '_checkUpdateVersion'];
+        //$controller->onBeforeAction = [$this, '_checkUpdateVersion'];
 
         // check app wide messages
         $controller->onBeforeAction = [$this, '_checkAppWideMessages'];

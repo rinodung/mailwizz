@@ -1,3 +1,0 @@
---
--- Update sql for MailWizz EMA from version 1.6.4 to 1.6.5
---
