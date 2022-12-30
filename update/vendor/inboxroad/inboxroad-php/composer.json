@@ -1,0 +1,33 @@
+{
+    "name": "inboxroad/inboxroad-php",
+    "version": "1.0.1",
+    "description": "Inboxroad Library for PHP",
+    "homepage": "https://www.inboxroad.com",
+    "autoload": {
+        "psr-4": {
+            "Inboxroad\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Inboxroad\\Test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "psr/http-client": "^1.0",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "phpstan/phpstan": "^0.12"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "fix-style": "./vendor/bin/php-cs-fixer fix .",
+        "analyse": "./vendor/bin/phpstan analyse src test -c phpstan.neon --level max --memory-limit=-1"
+    },
+    "license": "MIT"
+}

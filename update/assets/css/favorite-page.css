@@ -1,0 +1,43 @@
+#favorite-page .favorite-page-green {
+    color: #50CD89;
+    margin-top: -20px;
+    font-size: 27px;
+    z-index: 999;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.dark #favorite-page .favorite-page-green {
+    color: #04AA77;
+}
+
+#favorite-page .favorite-page-green:hover {
+    transform: scale(1.2); /* (120% zoom) */
+    color: #47BE7D;
+}
+
+.dark #favorite-page .favorite-page-green:hover {
+    transform: scale(1.2); /* (120% zoom) */
+    color:#0BB783;
+}
+
+#favorite-page .favorite-page-gray {
+    color: #CDCDDE;
+    margin-top: -20px;
+    font-size: 27px;
+    z-index: 999;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.dark #favorite-page .favorite-page-gray {
+    color: #92929f;
+}
+
+#favorite-page .favorite-page-gray:hover {
+    transform: scale(1.2); /* (120% zoom) */
+}
+
+.dark #favorite-page .favorite-page-gray:hover {
+    transform: scale(1.2); /* (120% zoom) */
+}

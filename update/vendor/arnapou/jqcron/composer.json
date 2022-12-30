@@ -1,0 +1,15 @@
+{
+	"name": "arnapou/jqcron",
+	"description": "Arnapou jqCron",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Arnaud Buathier",
+			"email": "arnaud@arnapou.net",
+			"homepage": "http://arnapou.net"
+		}
+	],
+	"autoload": {
+		"files": [ "src/Cron.php" ]
+	}
+}

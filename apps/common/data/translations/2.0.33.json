@@ -1,0 +1,4074 @@
+[
+  {
+    "category": "app",
+    "message": "None"
+  },
+  {
+    "category": "settings",
+    "message": "Custom fields default visibility"
+  },
+  {
+    "category": "settings",
+    "message": "Decide the default visibility for the list custom fields. This affects how the fields are presented to subscribers"
+  },
+  {
+    "category": "settings",
+    "message": "Max. active campaigns"
+  },
+  {
+    "category": "settings",
+    "message": "Recurring campaigns"
+  },
+  {
+    "category": "settings",
+    "message": "Maximum number of active campaigns a customer can have, set to -1 for unlimited"
+  },
+  {
+    "category": "settings",
+    "message": "Whether customers can send recurring campaigns"
+  },
+  {
+    "category": "app",
+    "message": "minute"
+  },
+  {
+    "category": "app",
+    "message": "hour"
+  },
+  {
+    "category": "app",
+    "message": "day"
+  },
+  {
+    "category": "app",
+    "message": "week"
+  },
+  {
+    "category": "app",
+    "message": "month"
+  },
+  {
+    "category": "app",
+    "message": "year"
+  },
+  {
+    "category": "settings",
+    "message": "Max. subaccounts"
+  },
+  {
+    "category": "settings",
+    "message": "Maximum number of subaccounts the customers can create, set to -1 for unlimited"
+  },
+  {
+    "category": "tour",
+    "message": "Are you sure? The tour contains valuable information to help you get started. You will not see the tour again if you end it!"
+  },
+  {
+    "category": "tour",
+    "message": "End the tour"
+  },
+  {
+    "category": "tour",
+    "message": "Close for now"
+  },
+  {
+    "category": "app",
+    "message": "active"
+  },
+  {
+    "category": "app",
+    "message": "cron-running"
+  },
+  {
+    "category": "app",
+    "message": "inactive"
+  },
+  {
+    "category": "app",
+    "message": "disabled"
+  },
+  {
+    "category": "servers",
+    "message": "Please note, when adding a bounce server make sure the email address is used only for automated sending and\/or reading bounce email but nothing more.<br \/> This is important since the script that checks the bounced emails needs to read all the emails from the account you specify and beside it can be time and memory consuming, it will also delete all the emails from the email account.<br \/> Important note: some SMTP servers <span style=\"color: #ff0000;\">will not<\/span> allow you to use a different bounce address than the one you use to authenticate. In this case, make sure you use same account for sending and for bouncing."
+  },
+  {
+    "category": "servers",
+    "message": "Please note that the server settings will be checked when you save the server and the save process will be denied if there are any connection errors.<br \/> Also, this is a good chance to see how long it takes from the moment you hit the save button till the moment the changes are saved because this is the same amount of time it will take the script to connect to the server and retrieve the bounced emails.<br \/> Some of the servers, like gmail for example, are very slow if you use a hostname(i.e: imap.gmail.com). If that's the case, then simply instead of the hostname, use the IP address.<br \/> You can use a service like <a target=\"_blank\" href=\"http:\/\/www.hcidata.info\/host2ip.htm\">hcidata.info<\/a> to find out the IP address of any hostname."
+  },
+  {
+    "category": "app",
+    "message": "Blacklist"
+  },
+  {
+    "category": "campaigns",
+    "message": "AFTER-SUBSCRIBE"
+  },
+  {
+    "category": "campaigns",
+    "message": "AFTER-CAMPAIGN-OPEN"
+  },
+  {
+    "category": "campaigns",
+    "message": "AFTER-CAMPAIGN-SENT"
+  },
+  {
+    "category": "campaigns",
+    "message": "November"
+  },
+  {
+    "category": "campaigns",
+    "message": "Subscribe"
+  },
+  {
+    "category": "messages",
+    "message": "A new abuse report has been created for the campaign \"{campaign_name}\". Please visit the \"<a href=\"{abuse_reports_url}\">Abuse Reports<\/a>\" area to handle it!"
+  },
+  {
+    "category": "servers",
+    "message": "all"
+  },
+  {
+    "category": "servers",
+    "message": "campaigns"
+  },
+  {
+    "category": "servers",
+    "message": "transactional emails"
+  },
+  {
+    "category": "servers",
+    "message": "never"
+  },
+  {
+    "category": "servers",
+    "message": "always"
+  },
+  {
+    "category": "servers",
+    "message": "when no valid signing domain"
+  },
+  {
+    "category": "app",
+    "message": "in-use"
+  },
+  {
+    "category": "servers",
+    "message": "allow"
+  },
+  {
+    "category": "servers",
+    "message": "deny"
+  },
+  {
+    "category": "servers",
+    "message": "In order to start sending emails using this server, we need to make sure that it works, therefore we need to send you an email with a confirmation link. Once you confirm this server, this message will go away and the server will become active and ready to be used.<br \/> Please note, for sending the confirmation email, we will use the information you provided when you created this server. <br \/> If you think you need to adjust the options, please feel free to do it now and save your changes before going through the validation process."
+  },
+  {
+    "category": "list_subscribers",
+    "message": "View"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Export"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Delete"
+  },
+  {
+    "category": "email_blacklist",
+    "message": "Equals"
+  },
+  {
+    "category": "email_blacklist",
+    "message": "Contains"
+  },
+  {
+    "category": "email_blacklist",
+    "message": "Starts with"
+  },
+  {
+    "category": "email_blacklist",
+    "message": "Ends with"
+  },
+  {
+    "category": "email_blacklist",
+    "message": "And"
+  },
+  {
+    "category": "email_blacklist",
+    "message": "Or"
+  },
+  {
+    "category": "translations",
+    "message": "Category"
+  },
+  {
+    "category": "translations",
+    "message": "Message"
+  },
+  {
+    "category": "translations",
+    "message": "Translation"
+  },
+  {
+    "category": "email_blacklist",
+    "message": ""
+  },
+  {
+    "category": "email_blacklist",
+    "message": "Please specify at least the email and\/or the reason!"
+  },
+  {
+    "category": "servers",
+    "message": "By email address"
+  },
+  {
+    "category": "servers",
+    "message": "By subscriber uid"
+  },
+  {
+    "category": "servers",
+    "message": "By subscriber uid or email address"
+  },
+  {
+    "category": "servers",
+    "message": "Please note, when adding an email box monitor make sure the email address is used only for it, nothing more.<br \/> This is important since the script that checks the emails needs to read all the emails from the account you specify and beside it can be time and memory consuming, it will also delete all the emails from the email account.<br \/><br \/> Please note that you have to add the following cron job in order for this feature to work:<br \/>{cron}"
+  },
+  {
+    "category": "servers",
+    "message": "Contains"
+  },
+  {
+    "category": "servers",
+    "message": "Unsubscribe"
+  },
+  {
+    "category": "servers",
+    "message": "Blacklist"
+  },
+  {
+    "category": "servers",
+    "message": "Unconfirm"
+  },
+  {
+    "category": "servers",
+    "message": "Delete"
+  },
+  {
+    "category": "servers",
+    "message": "These conditions will be applied to the email body and if matched, the given action will be taken against the email address.<br \/>Conditions are applied in the order they are added and execution stops at first match. The asterix wildcard (*) matches everything."
+  },
+  {
+    "category": "servers",
+    "message": "Please note that the server settings will be checked when you save the server and the save process will be denied if there are any connection errors.<br \/> Also, this is a good chance to see how long it takes from the moment you hit the save button till the moment the changes are saved because this is the same amount of time it will take the script to connect to the server and retrieve the feedback emails.<br \/> Some of the servers, like gmail for example, are very slow if you use a hostname(i.e: imap.gmail.com). If that's the case, then simply instead of the hostname, use the IP address.<br \/> You can use a service like <a target=\"_blank\" href=\"http:\/\/www.hcidata.info\/host2ip.htm\">hcidata.info<\/a> to find out the IP address of any hostname."
+  },
+  {
+    "category": "email_templates",
+    "message": "Please see <a href=\"{templateArchiveHref}\">this example archive<\/a> in order to understand how you should format your uploaded archive! Also, please note we only accept zip files."
+  },
+  {
+    "category": "email_template_builder",
+    "message": "Toggle template builder"
+  },
+  {
+    "category": "email_template_builder",
+    "message": "The template you create with the builder must be modified only using the builder."
+  },
+  {
+    "category": "email_template_builder",
+    "message": "Do not modify the template outside the builder, it will break."
+  },
+  {
+    "category": "extensions",
+    "message": "Enabled"
+  },
+  {
+    "category": "servers",
+    "message": "Please note, when adding a feedback loop server make sure the email address is used only for reading feedback email but nothing more.<br \/> This is important since the script that checks the bounced emails needs to read all the emails from the account you specify and beside it can be time and memory consuming, it will also delete all the emails from the email account."
+  },
+  {
+    "category": "app",
+    "message": "View translations"
+  },
+  {
+    "category": "languages",
+    "message": "Duplicate entry for the language and region code combination!"
+  },
+  {
+    "category": "list_page_types",
+    "message": "Please note, these pages are the base pages shown in customers area for each list.<br \/> The customer has the ability to modify them to fit their needs for any particular list."
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Confirm"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Disable"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Unsubscribe"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Blacklist"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Subscriber ID"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Ip address"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Unapproved"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Disabled"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Moved"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Api"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Import"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Web"
+  },
+  {
+    "category": "lists",
+    "message": "active"
+  },
+  {
+    "category": "lists",
+    "message": "ID"
+  },
+  {
+    "category": "menus",
+    "message": "View menus"
+  },
+  {
+    "category": "menus",
+    "message": "Menus"
+  },
+  {
+    "category": "menus",
+    "message": "Menu"
+  },
+  {
+    "category": "menus",
+    "message": "Zone"
+  },
+  {
+    "category": "menus",
+    "message": "Name"
+  },
+  {
+    "category": "app",
+    "message": "Create new menu"
+  },
+  {
+    "category": "menus",
+    "message": "Create new menu"
+  },
+  {
+    "category": "menus",
+    "message": "My menu name"
+  },
+  {
+    "category": "menus",
+    "message": "Items"
+  },
+  {
+    "category": "menus",
+    "message": "Item"
+  },
+  {
+    "category": "menus",
+    "message": "Label"
+  },
+  {
+    "category": "menus",
+    "message": "Title"
+  },
+  {
+    "category": "menus",
+    "message": "Url"
+  },
+  {
+    "category": "menus",
+    "message": "Sort order"
+  },
+  {
+    "category": "menus",
+    "message": "My menu item label"
+  },
+  {
+    "category": "menus",
+    "message": "My menu item title"
+  },
+  {
+    "category": "menus",
+    "message": "My menu item url"
+  },
+  {
+    "category": "menus",
+    "message": "Update menu"
+  },
+  {
+    "category": "campaigns",
+    "message": "internal"
+  },
+  {
+    "category": "campaigns",
+    "message": "soft"
+  },
+  {
+    "category": "campaigns",
+    "message": "hard"
+  },
+  {
+    "category": "app",
+    "message": "campaign"
+  },
+  {
+    "category": "app",
+    "message": "campaign-test"
+  },
+  {
+    "category": "app",
+    "message": "list"
+  },
+  {
+    "category": "app",
+    "message": "system"
+  },
+  {
+    "category": "app",
+    "message": "template-test"
+  },
+  {
+    "category": "app",
+    "message": "transactional"
+  },
+  {
+    "category": "servers",
+    "message": "Campaign"
+  },
+  {
+    "category": "servers",
+    "message": "Yes"
+  },
+  {
+    "category": "guest_fail_attempt",
+    "message": "Backend login"
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Campaigns sender, runs each minute."
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Queue handler, runs each minute."
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Transactional email sender, runs once at 2 minutes."
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Bounce handler, runs once at 10 minutes."
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Feedback loop handler, runs once at 20 minutes."
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Delivery\/Bounce processor, runs once at 3 minutes."
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Various tasks, runs each hour."
+  },
+  {
+    "category": "cron_jobs",
+    "message": "Daily cleaner, runs once a day."
+  },
+  {
+    "category": "queue",
+    "message": "View queue tasks"
+  },
+  {
+    "category": "queue",
+    "message": "ID"
+  },
+  {
+    "category": "queue",
+    "message": "Message ID"
+  },
+  {
+    "category": "queue",
+    "message": "Queue"
+  },
+  {
+    "category": "queue",
+    "message": "User"
+  },
+  {
+    "category": "queue",
+    "message": "Customer"
+  },
+  {
+    "category": "queue",
+    "message": "Acknowledged"
+  },
+  {
+    "category": "queue",
+    "message": "Reject"
+  },
+  {
+    "category": "queue",
+    "message": "Requeue"
+  },
+  {
+    "category": "queue",
+    "message": "Already acknowledged"
+  },
+  {
+    "category": "queue",
+    "message": "Waiting"
+  },
+  {
+    "category": "queue",
+    "message": "Processing"
+  },
+  {
+    "category": "pages",
+    "message": "Active"
+  },
+  {
+    "category": "promo_codes",
+    "message": "fixed amount"
+  },
+  {
+    "category": "promo_codes",
+    "message": "percentage"
+  },
+  {
+    "category": "promo_codes",
+    "message": "i.e: 2021-11-26"
+  },
+  {
+    "category": "promo_codes",
+    "message": "i.e: 2021-12-26"
+  },
+  {
+    "category": "sending_domains",
+    "message": "For best delivery rates, your domain DMARC record must look like:"
+  },
+  {
+    "category": "settings",
+    "message": "Common layout"
+  },
+  {
+    "category": "settings",
+    "message": "delete"
+  },
+  {
+    "category": "settings",
+    "message": "unsubscribe"
+  },
+  {
+    "category": "settings",
+    "message": "blacklist"
+  },
+  {
+    "category": "settings",
+    "message": "Whether to unsubscribe, delete or blacklist the subscriber."
+  },
+  {
+    "category": "settings",
+    "message": "- a fatal error means a SMTP error that has a return code higher or equal to 450.<br \/> - this happens when for example the account we try to send the email does not exist on the target server, or it has been closed.<br \/> - please note there are cases when the smtp server will directly return a fatal error if your server is blacklisted there so you might want to set a higher number here to avoid this."
+  },
+  {
+    "category": "settings",
+    "message": "- a soft error means a SMTP error that has a return code lower than 450 but higher than 2xx(which is a success code).<br \/> - this might happen if the subscriber account is temporarly disabled, or the receiving server is too busy, etc. Usually you'll want this option set to a high number."
+  },
+  {
+    "category": "settings",
+    "message": "- after the email has been delivered, there are chances the target server will bounce it back for several reasons.<br \/> - a hard bounce means the email does not exist anymore on the target server, or it has been blacklisted, disabled, etc.<br \/> - you should keep this option set to a lower number."
+  },
+  {
+    "category": "settings",
+    "message": "Unlike hard bounces, soft bounces can happen for reasons like server\/account temporarily unavailable, not enough disk space to store the email on the server, or even the response of an autoresponder.<br \/> - you should keep this option set to a high number."
+  },
+  {
+    "category": "settings",
+    "message": "Settings for sending domains"
+  },
+  {
+    "category": "settings",
+    "message": "Hourly checks"
+  },
+  {
+    "category": "settings",
+    "message": "Whether to enable hourly checks against sending domains and their DNS records. If the checks fail for certain sending domains, notifications will be emitted and the sending domains will require to be manually verified once again. Use with extra care."
+  },
+  {
+    "category": "settings",
+    "message": "Settings for tracking domains"
+  },
+  {
+    "category": "settings",
+    "message": "Whether to enable hourly checks against tracking domains and their DNS records. If the checks fail for certain tracking domains, notifications will be emitted and the tracking domains will require to be manually verified once again. Use with extra care."
+  },
+  {
+    "category": "settings",
+    "message": "API"
+  },
+  {
+    "category": "settings",
+    "message": "Transactional"
+  },
+  {
+    "category": "settings",
+    "message": "Direct"
+  },
+  {
+    "category": "settings",
+    "message": "Api key"
+  },
+  {
+    "category": "settings",
+    "message": "The key for api access"
+  },
+  {
+    "category": "settings",
+    "message": "Ip access"
+  },
+  {
+    "category": "settings",
+    "message": "Allowed IPs"
+  },
+  {
+    "category": "settings",
+    "message": "List of IPs allowed to access the api. Separate multiple IPs by a comma"
+  },
+  {
+    "category": "settings",
+    "message": "SPF\/Dkim"
+  },
+  {
+    "category": "settings",
+    "message": "The DMARC value"
+  },
+  {
+    "category": "settings",
+    "message": "You can use {url} to generate the DMARC records."
+  },
+  {
+    "category": "start_pages",
+    "message": "Api"
+  },
+  {
+    "category": "start_pages",
+    "message": "Backend"
+  },
+  {
+    "category": "start_pages",
+    "message": "Customer"
+  },
+  {
+    "category": "start_pages",
+    "message": "Frontend"
+  },
+  {
+    "category": "surveys",
+    "message": "draft"
+  },
+  {
+    "category": "surveys",
+    "message": "active"
+  },
+  {
+    "category": "surveys",
+    "message": "inactive"
+  },
+  {
+    "category": "app",
+    "message": "Backend"
+  },
+  {
+    "category": "app",
+    "message": "Customer"
+  },
+  {
+    "category": "app",
+    "message": "Frontend"
+  },
+  {
+    "category": "tracking_domains",
+    "message": "Verified"
+  },
+  {
+    "category": "tracking_domains",
+    "message": "Skip verification"
+  },
+  {
+    "category": "tracking_domains",
+    "message": "Please DO NOT SKIP verification unless you are 100% sure you know what you are doing."
+  },
+  {
+    "category": "transactional_emails",
+    "message": "Sent"
+  },
+  {
+    "category": "transactional_emails",
+    "message": "Unsent"
+  },
+  {
+    "category": "user_groups",
+    "message": "Index"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all the available article categories"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new article category"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing article category"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete exiting article category"
+  },
+  {
+    "category": "user_groups",
+    "message": "Slug"
+  },
+  {
+    "category": "user_groups",
+    "message": "Generate the slug of the article category based on the article category title"
+  },
+  {
+    "category": "user_groups",
+    "message": "Article categories"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for articles categories related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available articles"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new article"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing article"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete an existing article"
+  },
+  {
+    "category": "user_groups",
+    "message": "Generate the slug for an article based on the article title"
+  },
+  {
+    "category": "user_groups",
+    "message": "Articles"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for articles related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all block email requests"
+  },
+  {
+    "category": "user_groups",
+    "message": "Confirm"
+  },
+  {
+    "category": "user_groups",
+    "message": "Confirm a block email request."
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete a block email request."
+  },
+  {
+    "category": "user_groups",
+    "message": "Bulk action"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the block requests"
+  },
+  {
+    "category": "user_groups",
+    "message": "Block email request"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for block email requests related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available bounce servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new bounce server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing bounce server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing bounce server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the bounce servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Copy"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a copy of an existing bounce server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Enable"
+  },
+  {
+    "category": "user_groups",
+    "message": "Enable a server that has been previously disabled"
+  },
+  {
+    "category": "user_groups",
+    "message": "Disable"
+  },
+  {
+    "category": "user_groups",
+    "message": "Disable a server that has been previously verified"
+  },
+  {
+    "category": "user_groups",
+    "message": "Export"
+  },
+  {
+    "category": "user_groups",
+    "message": "Bounce servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for bounce servers related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all abuse reports for all campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": ""
+  },
+  {
+    "category": "user_groups",
+    "message": "Blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Blacklist campaign abuse email"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the campaign abuse reports"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign abuse reports"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for campaign abuse reports tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Regular"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available regular campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Autoresponder"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available autoresponder campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Overview"
+  },
+  {
+    "category": "user_groups",
+    "message": "Show the overview for a campaign"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete campaign, will remove all campaign related data"
+  },
+  {
+    "category": "user_groups",
+    "message": "Approve"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allows to approve a campaign"
+  },
+  {
+    "category": "user_groups",
+    "message": "Disapprove"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allows to disapprove a campaign"
+  },
+  {
+    "category": "user_groups",
+    "message": "Block unblock"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allows to blockunblock a campaign"
+  },
+  {
+    "category": "user_groups",
+    "message": "Pause unpause"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allows to pauseunpause the sending of a campaign"
+  },
+  {
+    "category": "user_groups",
+    "message": "Resume sending"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allows to resume sending of a stuck campaign"
+  },
+  {
+    "category": "user_groups",
+    "message": "Marksent"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allows to mark a campaign as sent"
+  },
+  {
+    "category": "user_groups",
+    "message": "Resend giveups"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allows to resend the giveups for a campaign"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Quick view"
+  },
+  {
+    "category": "user_groups",
+    "message": "Quick view campaign details"
+  },
+  {
+    "category": "user_groups",
+    "message": "Compare"
+  },
+  {
+    "category": "user_groups",
+    "message": "Compare campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for campaigns related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available email templates"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new template"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing template"
+  },
+  {
+    "category": "user_groups",
+    "message": "Reinstall"
+  },
+  {
+    "category": "user_groups",
+    "message": "Reinstall core templates"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing template"
+  },
+  {
+    "category": "user_groups",
+    "message": "Common email templates"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for common email templates related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all the available company types"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new company type"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing company type"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete exiting company type"
+  },
+  {
+    "category": "user_groups",
+    "message": "Company types"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for company types related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available countries"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new country"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing country"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing country"
+  },
+  {
+    "category": "user_groups",
+    "message": "Zones"
+  },
+  {
+    "category": "user_groups",
+    "message": "Show existing country zones"
+  },
+  {
+    "category": "user_groups",
+    "message": "Countries"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for countries related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available currencies"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new currency"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing currency"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing currency"
+  },
+  {
+    "category": "user_groups",
+    "message": "Currencies"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for currencies related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available customer groups"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new customer group"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing customer group"
+  },
+  {
+    "category": "user_groups",
+    "message": "Copy customer group"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing customer group"
+  },
+  {
+    "category": "user_groups",
+    "message": "Reset sending quota"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer groups"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for customer groups related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List customer login logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing customer login log"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete all"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete all login logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer login logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for customer login logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "List customer messages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new message"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing message"
+  },
+  {
+    "category": "user_groups",
+    "message": "View"
+  },
+  {
+    "category": "user_groups",
+    "message": "View message"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing customer message"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer messages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for customer messages related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available customers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new customer"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing customer"
+  },
+  {
+    "category": "user_groups",
+    "message": "2fa"
+  },
+  {
+    "category": "user_groups",
+    "message": "2FA for existing customer"
+  },
+  {
+    "category": "user_groups",
+    "message": "Export all known data about an existing customer"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing customer"
+  },
+  {
+    "category": "user_groups",
+    "message": "Impersonate"
+  },
+  {
+    "category": "user_groups",
+    "message": "Impersonate (login as) this customer"
+  },
+  {
+    "category": "user_groups",
+    "message": "Autocomplete"
+  },
+  {
+    "category": "user_groups",
+    "message": "Autocomplete for search"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for customers related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Send mass emails to customers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customers mass emails"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for sending mass emails to customers"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available delivery servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new delivery server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing delivery server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing delivery server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the delivery servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Validate"
+  },
+  {
+    "category": "user_groups",
+    "message": "Validate a delivery server. The delivery server will stay inactive until validation by email. While delivery server is inactive it cannot be used to send emails"
+  },
+  {
+    "category": "user_groups",
+    "message": "Confirm the validation of a delivery server. This is accessed from the validation email and changes the status of a delivery server from inactive in active thus allowing the application to send emails using this server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a copy of an existing delivery server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Export existing delivery servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import new delivery servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delivery servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for delivery servers related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all blacklisted domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Add a new domain to blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the domains blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import blacklisted domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Export blacklisted domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Domain blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for domain blacklist related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Default action, allowing to download."
+  },
+  {
+    "category": "user_groups",
+    "message": "Download queued"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for downloading the results of queued tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all blacklisted emails. Delivery to blacklisted emails is denied"
+  },
+  {
+    "category": "user_groups",
+    "message": "Add a new email in the blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update an existing email from the blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete an email from the blacklist. Once removed from the blacklist, the delivery servers will be able to deliver the email to the removed address"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the email blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete all the emails from the blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Export blacklisted emails"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import blacklisted emails"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import queue"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import into the queue existing suppressed emails"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email blacklist"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for blacklisted emails related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all blacklist monitors."
+  },
+  {
+    "category": "user_groups",
+    "message": "Add a new blacklist monitor"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update an existing blacklist monitor"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete a blacklist monitor."
+  },
+  {
+    "category": "user_groups",
+    "message": "Export blacklist monitors"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import blacklist monitors"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email blacklist monitors"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for blacklist monitors related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available incoming servers monitors"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new incoming server monitor"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing incoming server monitor"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing incoming server monitor"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a copy of an existing server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email box monitors"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for incoming servers monitors related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available categories"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new category"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing category"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete an existing category"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email templates categories"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for template categories related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available templates"
+  },
+  {
+    "category": "user_groups",
+    "message": "Copy a template"
+  },
+  {
+    "category": "user_groups",
+    "message": "Preview"
+  },
+  {
+    "category": "user_groups",
+    "message": "Preview template"
+  },
+  {
+    "category": "user_groups",
+    "message": "Save screenshot"
+  },
+  {
+    "category": "user_groups",
+    "message": "Save template screenshot"
+  },
+  {
+    "category": "user_groups",
+    "message": "Upload"
+  },
+  {
+    "category": "user_groups",
+    "message": "Upload a template zip archive"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email templates gallery"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for templates related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available extensions"
+  },
+  {
+    "category": "user_groups",
+    "message": "Upload a new extensions"
+  },
+  {
+    "category": "user_groups",
+    "message": "Enable extension"
+  },
+  {
+    "category": "user_groups",
+    "message": "Disable extension"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update extension"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete extension"
+  },
+  {
+    "category": "user_groups",
+    "message": "Extensions"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for extensions related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List available feedback loop servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new feedback loop server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing feedback loop server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing feedback loop server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the fbl servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a copy of an existing fbl server"
+  },
+  {
+    "category": "user_groups",
+    "message": "Feedback loop servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for feedback loop servers related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display available services"
+  },
+  {
+    "category": "user_groups",
+    "message": "Ip location services"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for ip location services related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available languages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new language"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing language"
+  },
+  {
+    "category": "user_groups",
+    "message": "Languages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for languages related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all the available page typs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update certain page type"
+  },
+  {
+    "category": "user_groups",
+    "message": "List page type"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for list page types related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaigns sent to this subscriber"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing list subscriber"
+  },
+  {
+    "category": "user_groups",
+    "message": "Disable existing list subscriber"
+  },
+  {
+    "category": "user_groups",
+    "message": "Unsubscribe"
+  },
+  {
+    "category": "user_groups",
+    "message": "Unsubscribe existing list subscriber"
+  },
+  {
+    "category": "user_groups",
+    "message": "Subscribe"
+  },
+  {
+    "category": "user_groups",
+    "message": "Subscribe existing list subscriber"
+  },
+  {
+    "category": "user_groups",
+    "message": "Profile"
+  },
+  {
+    "category": "user_groups",
+    "message": "Return profile info"
+  },
+  {
+    "category": "user_groups",
+    "message": "Profile export"
+  },
+  {
+    "category": "user_groups",
+    "message": "Export profile info"
+  },
+  {
+    "category": "user_groups",
+    "message": "List subscribers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for list subscribers related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Show available lists"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display list overview This is a page containing shortcuts to the most important list features."
+  },
+  {
+    "category": "user_groups",
+    "message": "Toggle archive"
+  },
+  {
+    "category": "user_groups",
+    "message": "Toggle list as an archive"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing list"
+  },
+  {
+    "category": "user_groups",
+    "message": "All subscribers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display a searchable table of subscribers from all lists"
+  },
+  {
+    "category": "user_groups",
+    "message": "Lists"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for lists related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Maxmind DB info"
+  },
+  {
+    "category": "user_groups",
+    "message": "Maxmind"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for maxmind related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available menus"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new menu"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing menu"
+  },
+  {
+    "category": "user_groups",
+    "message": "Run a bulk action against the menus"
+  },
+  {
+    "category": "user_groups",
+    "message": "Menus"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for menus related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Show available user messages"
+  },
+  {
+    "category": "user_groups",
+    "message": "View user message"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing message"
+  },
+  {
+    "category": "user_groups",
+    "message": "Mark all as seen"
+  },
+  {
+    "category": "user_groups",
+    "message": "Mark all messages as seen for a certain user"
+  },
+  {
+    "category": "user_groups",
+    "message": "Header"
+  },
+  {
+    "category": "user_groups",
+    "message": "Show available user messages for header"
+  },
+  {
+    "category": "user_groups",
+    "message": "Messages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for messages related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Index action"
+  },
+  {
+    "category": "user_groups",
+    "message": "Emergency actions"
+  },
+  {
+    "category": "user_groups",
+    "message": "Reset campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Reset bounce servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Reset fbl servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Reset email box monitors"
+  },
+  {
+    "category": "user_groups",
+    "message": "Application log"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaigns delivery logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign delivery logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaigns bounce logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign bounce logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaigns stats"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delivery servers usage logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete delivery temporary errors"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete temporary errors from campaigns delivery logs"
+  },
+  {
+    "category": "user_groups",
+    "message": "Guest fail attempts"
+  },
+  {
+    "category": "user_groups",
+    "message": "Cron jobs list"
+  },
+  {
+    "category": "user_groups",
+    "message": "Cron jobs display list"
+  },
+  {
+    "category": "user_groups",
+    "message": "Cron jobs history"
+  },
+  {
+    "category": "user_groups",
+    "message": "Phpinfo"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display information about the current php version"
+  },
+  {
+    "category": "user_groups",
+    "message": "Changelog"
+  },
+  {
+    "category": "user_groups",
+    "message": "Change log"
+  },
+  {
+    "category": "user_groups",
+    "message": "Queue monitor"
+  },
+  {
+    "category": "user_groups",
+    "message": "Queue tasks list"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete queue monitor item"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete an existing queue monitor item"
+  },
+  {
+    "category": "user_groups",
+    "message": "Misc"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for miscellaneous tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available orders"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create order"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing order"
+  },
+  {
+    "category": "user_groups",
+    "message": "View order"
+  },
+  {
+    "category": "user_groups",
+    "message": "Pdf"
+  },
+  {
+    "category": "user_groups",
+    "message": "View order in PDF format"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email invoice"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email the invoice"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing order"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete note"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing order note"
+  },
+  {
+    "category": "user_groups",
+    "message": "Orders"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for price plans orders related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available pages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new page"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing page"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete an existing page"
+  },
+  {
+    "category": "user_groups",
+    "message": "Generate the slug for an page based on the page title"
+  },
+  {
+    "category": "user_groups",
+    "message": "Pages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for pages related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display available gateways"
+  },
+  {
+    "category": "user_groups",
+    "message": "Payment gateways"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for payment gateways related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available price plans"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new price plan"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing price plan"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a copy of an existing price plan"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing price plan"
+  },
+  {
+    "category": "user_groups",
+    "message": "Autocomplete for price plans"
+  },
+  {
+    "category": "user_groups",
+    "message": "Price plans"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for price plans related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available promo codes"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new promo code"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing promo code"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing promo code"
+  },
+  {
+    "category": "user_groups",
+    "message": "Autocomplete for promo codes"
+  },
+  {
+    "category": "user_groups",
+    "message": "Promo codes"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for promo codes related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available sending domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new sending domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing sending domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Verify"
+  },
+  {
+    "category": "user_groups",
+    "message": "Verify sending domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing sending domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Sending domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for sending domains related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the common settings page"
+  },
+  {
+    "category": "user_groups",
+    "message": "System urls"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for system urls"
+  },
+  {
+    "category": "user_groups",
+    "message": "Import export"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for importerexporter"
+  },
+  {
+    "category": "user_groups",
+    "message": "Cron"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for console commands"
+  },
+  {
+    "category": "user_groups",
+    "message": "Email templates"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for email templates"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for email blacklist checks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Api ip access"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for api ip access"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer common"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the common settings for customers options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer servers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer server options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer domains options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer lists"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer lists options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer registration"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer registration options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer api"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer api options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer subaccounts"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer subaccounts options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer sending"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer sending options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer quota counters"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer quota counters options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer campaigns"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer campaigns options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer surveys"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer surveys options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customer cdn"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customer cdn options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign attachments"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for campaign attachments"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign template tags"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for campaign available tags"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign exclude ips from tracking"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for campaigns to exclude various ips from tracking(opensclicks)"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign blacklist words"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for campaigns to blacklist various words from subject andor content"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign template engine"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for campaign template engine options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign webhooks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for campaign webhooks options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign misc"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for misc campaign options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaign options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for campaign options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Monetization"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for monetization options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Monetization orders"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for monetization orders"
+  },
+  {
+    "category": "user_groups",
+    "message": "Monetization invoices"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for monetization invoices"
+  },
+  {
+    "category": "user_groups",
+    "message": "License"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for license options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Social links"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for social links options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Cdn"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for CDN options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Spf dkim"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customization"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for customization options"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handle the settings for 2FA"
+  },
+  {
+    "category": "user_groups",
+    "message": "Transactional email attachments"
+  },
+  {
+    "category": "user_groups",
+    "message": "Htaccess modal"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display the modal window with for htaccess"
+  },
+  {
+    "category": "user_groups",
+    "message": "Write htaccess"
+  },
+  {
+    "category": "user_groups",
+    "message": "Tries to write the contents of the htaccess file"
+  },
+  {
+    "category": "user_groups",
+    "message": "Settings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the settings for the application"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all the available page indexes"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create page index"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update page index"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing page index"
+  },
+  {
+    "category": "user_groups",
+    "message": "Start pages"
+  },
+  {
+    "category": "user_groups",
+    "message": "Show available surveys"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display survey overview This is a page containing shortcuts to the most important survey features."
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing survey"
+  },
+  {
+    "category": "user_groups",
+    "message": "Surveys"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for surveys related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available taxes"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new tax"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing tax"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing tax"
+  },
+  {
+    "category": "user_groups",
+    "message": "Zones by country"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display country zones"
+  },
+  {
+    "category": "user_groups",
+    "message": "Taxes"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for taxes related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available themes in selected application"
+  },
+  {
+    "category": "user_groups",
+    "message": "Settings page for theme"
+  },
+  {
+    "category": "user_groups",
+    "message": "Upload a new themes"
+  },
+  {
+    "category": "user_groups",
+    "message": "Enable theme"
+  },
+  {
+    "category": "user_groups",
+    "message": "Disable theme"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete theme"
+  },
+  {
+    "category": "user_groups",
+    "message": "Theme"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for themes related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available tracking domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new tracking domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing tracking domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing tracking domain"
+  },
+  {
+    "category": "user_groups",
+    "message": "Tracking domains"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for tracking domains related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available emails"
+  },
+  {
+    "category": "user_groups",
+    "message": "Preview transactional email"
+  },
+  {
+    "category": "user_groups",
+    "message": "Resend"
+  },
+  {
+    "category": "user_groups",
+    "message": "Resend transactional email"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing email"
+  },
+  {
+    "category": "user_groups",
+    "message": "Transactional emails"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for transactional emails related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Save"
+  },
+  {
+    "category": "user_groups",
+    "message": "Translations"
+  },
+  {
+    "category": "user_groups",
+    "message": "Display the update page and execute the update"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for updating the application"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available groups"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new group"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing group"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing group"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for user groups related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available users"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new user"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing user"
+  },
+  {
+    "category": "user_groups",
+    "message": "2FA for existing user"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing user"
+  },
+  {
+    "category": "user_groups",
+    "message": "Users"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for users related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available zones"
+  },
+  {
+    "category": "user_groups",
+    "message": "Create a new zone"
+  },
+  {
+    "category": "user_groups",
+    "message": "Update existing zone"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete existing zone"
+  },
+  {
+    "category": "user_groups",
+    "message": "Ajax search"
+  },
+  {
+    "category": "user_groups",
+    "message": "Ajax search for zones"
+  },
+  {
+    "category": "user_groups",
+    "message": "Handles the actions for zones related tasks"
+  },
+  {
+    "category": "user_groups",
+    "message": "Action for settings, only admin users can access it."
+  },
+  {
+    "category": "user_groups",
+    "message": "Filemanager"
+  },
+  {
+    "category": "user_groups",
+    "message": "Render the file manager Customers and admin users are allowed to access it."
+  },
+  {
+    "category": "user_groups",
+    "message": "Fm"
+  },
+  {
+    "category": "user_groups",
+    "message": "Render the file manager in the application layout Customers and admin users are allowed to access it."
+  },
+  {
+    "category": "user_groups",
+    "message": "Filemanager connector"
+  },
+  {
+    "category": "user_groups",
+    "message": "Connector action. Customers and admin users are allowed to access it."
+  },
+  {
+    "category": "user_groups",
+    "message": "Ckeditorextcommonckeditor"
+  },
+  {
+    "category": "user_groups",
+    "message": "Default action."
+  },
+  {
+    "category": "user_groups",
+    "message": "Paymentgatewaypaypalextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for gateway settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Common settings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Recaptchaextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Searchextcommonsearch"
+  },
+  {
+    "category": "user_groups",
+    "message": "Tourextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Tourextbackendslideshowslides"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all available items"
+  },
+  {
+    "category": "user_groups",
+    "message": "Tourextbackendslideshows"
+  },
+  {
+    "category": "user_groups",
+    "message": "Tourextcommonslideshowskip"
+  },
+  {
+    "category": "user_groups",
+    "message": "Translateextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Common settings for Amazon S3"
+  },
+  {
+    "category": "user_groups",
+    "message": "Amazons3extbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for amazon s3."
+  },
+  {
+    "category": "user_groups",
+    "message": "Settings page"
+  },
+  {
+    "category": "user_groups",
+    "message": "Backupmanagerextbackendamazons3"
+  },
+  {
+    "category": "user_groups",
+    "message": "Backupmanagerextbackenddigitaloceanspaces"
+  },
+  {
+    "category": "user_groups",
+    "message": "Backupmanagerextbackenddropbox"
+  },
+  {
+    "category": "user_groups",
+    "message": "Backupmanagerextbackendftp"
+  },
+  {
+    "category": "user_groups",
+    "message": "Backup settings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Backupmanagerextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for extension settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Backupmanagerextbackendsftp"
+  },
+  {
+    "category": "user_groups",
+    "message": "List all backups"
+  },
+  {
+    "category": "user_groups",
+    "message": "Download"
+  },
+  {
+    "category": "user_groups",
+    "message": "Backupmanagerextbackendsnapshots"
+  },
+  {
+    "category": "user_groups",
+    "message": "Customsubscriberattachmentextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Default action"
+  },
+  {
+    "category": "user_groups",
+    "message": "Paymentgatewaystripesubscriptionsextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file"
+  },
+  {
+    "category": "user_groups",
+    "message": "Paymentgatewaystripeextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Supportticketsextbackenddepartments"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file."
+  },
+  {
+    "category": "user_groups",
+    "message": "Supportticketsextbackendpriorities"
+  },
+  {
+    "category": "user_groups",
+    "message": "Supportticketsextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Delete reply"
+  },
+  {
+    "category": "user_groups",
+    "message": "Supportticketsextbackendsupporttickets"
+  },
+  {
+    "category": "user_groups",
+    "message": "Allow"
+  },
+  {
+    "category": "user_groups",
+    "message": "Deny"
+  },
+  {
+    "category": "app",
+    "message": "Send groups"
+  },
+  {
+    "category": "app",
+    "message": "Subaccounts"
+  },
+  {
+    "category": "api_keys",
+    "message": "Api key"
+  },
+  {
+    "category": "api_keys",
+    "message": "A new API access has been added:<br \/>Key: {key}"
+  },
+  {
+    "category": "servers",
+    "message": "Please note, when adding a bounce server make sure the email address is used only for automated sending and\/or reading bounce email but nothing more.<br \/> This is important since the script that checks the bounced emails needs to read all the emails from the account you specify and will delete them all after processing.<br \/> Important note: some SMTP servers <span style=\"color: #ff0000;\">will not<\/span> allow you to use a different bounce address than the one you use to authenticate. In this case, make sure you use same account for sending and for bouncing."
+  },
+  {
+    "category": "campaigns",
+    "message": "* if multiple recipients, separate the email addresses by a comma.<br \/> * the email tags will be parsed and we will pick a random subscriber to impersonate.<br \/> * the tracking will not be enabled.<br \/> * for the test email only, the subject will be prefixed with *** TEST ***<br \/> * make sure you save the template changes before you send the test."
+  },
+  {
+    "category": "lists",
+    "message": "Daily to"
+  },
+  {
+    "category": "lists",
+    "message": "Subscribe to"
+  },
+  {
+    "category": "lists",
+    "message": "Unsubscribe to"
+  },
+  {
+    "category": "lists",
+    "message": ""
+  },
+  {
+    "category": "lists",
+    "message": "The list \"{listName}\" has been successfully created!"
+  },
+  {
+    "category": "lists",
+    "message": "List open graph"
+  },
+  {
+    "category": "lists",
+    "message": "Double"
+  },
+  {
+    "category": "lists",
+    "message": "Single"
+  },
+  {
+    "category": "lists",
+    "message": "The list \"{listName}\" has been successfully updated!"
+  },
+  {
+    "category": "campaigns",
+    "message": "Start typing..."
+  },
+  {
+    "category": "campaigns",
+    "message": "Campaigns in same send group will allow you to send multiple campaigns to multiple list\/segments without sending the email to same subscriber twice."
+  },
+  {
+    "category": "campaigns",
+    "message": "A new campaign({type}) called \"{campaignName}\" has been created successfully!"
+  },
+  {
+    "category": "app",
+    "message": "copy"
+  },
+  {
+    "category": "app",
+    "message": "move"
+  },
+  {
+    "category": "campaigns",
+    "message": "Forward friend subject"
+  },
+  {
+    "category": "campaigns",
+    "message": "Hey, check out this url, I think you will like it."
+  },
+  {
+    "category": "campaigns",
+    "message": "The subject line for the email sent when a subscriber will forward this campaign to a friend. Leave empty to use the default: {subject}"
+  },
+  {
+    "category": "campaigns",
+    "message": "Suppression list(s)"
+  },
+  {
+    "category": "campaigns",
+    "message": "Delivery servers"
+  },
+  {
+    "category": "campaigns",
+    "message": "Estimated recipients count"
+  },
+  {
+    "category": "app",
+    "message": "Unable to complete the request"
+  },
+  {
+    "category": "campaigns",
+    "message": "Stay on page"
+  },
+  {
+    "category": "campaigns",
+    "message": "The campaign({type}) called \"{campaignName}\" has been scheduled for sending!"
+  },
+  {
+    "category": "campaigns",
+    "message": "The campaign({type}) called \"{campaignName}\" has been updated!"
+  },
+  {
+    "category": "campaigns",
+    "message": "Emails"
+  },
+  {
+    "category": "campaigns",
+    "message": "Email above info to below email addresses (comma separated email list accepted)"
+  },
+  {
+    "category": "campaigns",
+    "message": "The campaign({type}) called \"{campaignName}\" has been successfully deleted!"
+  },
+  {
+    "category": "campaigns",
+    "message": "A\/B Test"
+  },
+  {
+    "category": "campaigns",
+    "message": "OR"
+  },
+  {
+    "category": "campaigns",
+    "message": "AND"
+  },
+  {
+    "category": "campaigns",
+    "message": "Test"
+  },
+  {
+    "category": "campaigns",
+    "message": "Winner criteria - Opens count"
+  },
+  {
+    "category": "campaigns",
+    "message": "Winner criteria - Days count"
+  },
+  {
+    "category": "campaigns",
+    "message": "Winner criteria - Days count start date"
+  },
+  {
+    "category": "campaigns",
+    "message": "Winner criteria - Operator"
+  },
+  {
+    "category": "campaigns",
+    "message": "i.e: {n}"
+  },
+  {
+    "category": "campaigns",
+    "message": "Determine the winner based on the number of opens in a campaign."
+  },
+  {
+    "category": "campaigns",
+    "message": "Determine the winner based on the number of days since the campaign has started."
+  },
+  {
+    "category": "campaigns",
+    "message": "Decide if all conditions must be met or either of them."
+  },
+  {
+    "category": "campaigns",
+    "message": "Whether this A\/B Test is enabled for this campaign"
+  },
+  {
+    "category": "campaigns",
+    "message": "Test subject lines"
+  },
+  {
+    "category": "campaigns",
+    "message": "Add subject line"
+  },
+  {
+    "category": "campaigns",
+    "message": "open"
+  },
+  {
+    "category": "campaigns",
+    "message": "unopen"
+  },
+  {
+    "category": "campaigns",
+    "message": "Is winner"
+  },
+  {
+    "category": "campaigns",
+    "message": "Opens count"
+  },
+  {
+    "category": "campaigns",
+    "message": "Usage count"
+  },
+  {
+    "category": "campaigns",
+    "message": "Remove subject line"
+  },
+  {
+    "category": "campaigns",
+    "message": "If enabled, the A\/B Test will rotate the A\/B Test items in a round-robin fashion until a winner is decided based on the A\/B Test conditions."
+  },
+  {
+    "category": "servers",
+    "message": "Please note, when adding an email box monitor make sure the email address is used only for it, nothing more.<br \/> This is important since the script that checks the emails needs to read all the emails from the account you specify and beside it can be time and memory consuming, it will also delete all the emails from the email account."
+  },
+  {
+    "category": "servers",
+    "message": "Move to list"
+  },
+  {
+    "category": "servers",
+    "message": "Copy to list"
+  },
+  {
+    "category": "servers",
+    "message": "Stop campaign group"
+  },
+  {
+    "category": "lists",
+    "message": "The list \"{listName}\" has been successfully deleted!"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Subscribe"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Unconfirm"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Blacklist subscriber"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Are you sure you want to blacklist this subscriber?"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "confirmed"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "Create list"
+  },
+  {
+    "category": "list_subscribers",
+    "message": "unsubscribed"
+  },
+  {
+    "category": "list_segments",
+    "message": "any"
+  },
+  {
+    "category": "list_segments",
+    "message": "all"
+  },
+  {
+    "category": "list_segments",
+    "message": "is"
+  },
+  {
+    "category": "list_segments",
+    "message": "is not"
+  },
+  {
+    "category": "list_segments",
+    "message": "contains"
+  },
+  {
+    "category": "list_segments",
+    "message": "not contains"
+  },
+  {
+    "category": "list_segments",
+    "message": "starts with"
+  },
+  {
+    "category": "list_segments",
+    "message": "ends with"
+  },
+  {
+    "category": "list_segments",
+    "message": "is greater than"
+  },
+  {
+    "category": "list_segments",
+    "message": "is less than"
+  },
+  {
+    "category": "list_segments",
+    "message": "not starts with"
+  },
+  {
+    "category": "list_segments",
+    "message": "not ends with"
+  },
+  {
+    "category": "list_segments",
+    "message": "A new segment called \"{segmentName}\" has been added to the list \"{listName}\" successfully!"
+  },
+  {
+    "category": "list_segments",
+    "message": "The segment called \"{segmentName}\" belonging to the list \"{listName}\" has been successfully updated!"
+  },
+  {
+    "category": "list_segments",
+    "message": "The segment {segmentName} belonging to the list \"{listName}\" has been successfully deleted!"
+  },
+  {
+    "category": "list_fields",
+    "message": "Hidden fields are rendered in the form but hidden, while None fields are simply not rendered in the form at all."
+  },
+  {
+    "category": "list_pages",
+    "message": "Subscribe form"
+  },
+  {
+    "category": "list_pages",
+    "message": "Pending subscribe"
+  },
+  {
+    "category": "list_pages",
+    "message": "Subscription confirmed"
+  },
+  {
+    "category": "list_pages",
+    "message": "Update Profile"
+  },
+  {
+    "category": "list_pages",
+    "message": "Unsubscribe form"
+  },
+  {
+    "category": "list_pages",
+    "message": "Unsubscribe confirmation"
+  },
+  {
+    "category": "list_pages",
+    "message": "Subscribe confirm email"
+  },
+  {
+    "category": "list_pages",
+    "message": "Unsubscribe confirm email"
+  },
+  {
+    "category": "list_pages",
+    "message": "Welcome email"
+  },
+  {
+    "category": "list_pages",
+    "message": "Subscription confirmed approval"
+  },
+  {
+    "category": "list_pages",
+    "message": "Subscription confirmed approval email"
+  },
+  {
+    "category": "lists",
+    "message": "post"
+  },
+  {
+    "category": "lists",
+    "message": "get"
+  },
+  {
+    "category": "app",
+    "message": "Please select an option."
+  },
+  {
+    "category": "list_forms",
+    "message": "Please note, you will have to style the forms below to match the place where you embed them.<br \/> You can create better forms by using the <a href=\"{sdkHref}\" target=\"_blank\">PHP-SDK<\/a> and connect to the provided api."
+  },
+  {
+    "category": "list_import",
+    "message": "Please note, we only accept valid CSV files that contain a header, that is the column names for the data to be imported.<br \/> We also have a limit on the file size you are allowed to upload, that is {uploadLimit}.<br \/> The import process might fail with some of the files, mainly because these are not correctly formatted or they contain invalid data.<br \/> You should first do a test import(in a test list) and see if that goes as planned then do it for your actual list.<br \/> <strong>Important<\/strong>: The CSV file column names will be used to create the list TAGS, if a tag does not exist, it will be created.<br \/> You can also click <a href=\"{exampleArchiveHref}\" target=\"_blank\">here<\/a> to see a csv file example."
+  },
+  {
+    "category": "list_subscribers",
+    "message": "The subscriber having the email address \"{email}\" has been successfully removed from the \"{listName}\" list!"
+  },
+  {
+    "category": "lists",
+    "message": "Your mail list open graph tags"
+  },
+  {
+    "category": "lists",
+    "message": "List open graph tags"
+  },
+  {
+    "category": "lists",
+    "message": "Title"
+  },
+  {
+    "category": "lists",
+    "message": "Image"
+  },
+  {
+    "category": "lists",
+    "message": "List open graph tags successfully updated!"
+  },
+  {
+    "category": "customers",
+    "message": "View subaccounts"
+  },
+  {
+    "category": "customers",
+    "message": "Subaccounts"
+  },
+  {
+    "category": "customers",
+    "message": "Create new subaccount"
+  },
+  {
+    "category": "customers",
+    "message": "Permissions"
+  },
+  {
+    "category": "settings",
+    "message": "Manage lists"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to lists and subscribers. Assign with care!"
+  },
+  {
+    "category": "settings",
+    "message": "Manage campaigns"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to campaigns. Assign with care!"
+  },
+  {
+    "category": "settings",
+    "message": "Manage servers"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to delivery, bounce and feedback loop servers. Assign with care!"
+  },
+  {
+    "category": "settings",
+    "message": "Manage surveys"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to surveys and survey responders. Assign with care!"
+  },
+  {
+    "category": "settings",
+    "message": "Manage api keys"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to api keys. Assign with care!"
+  },
+  {
+    "category": "settings",
+    "message": "Manage domains"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to sending and tracking domains. Assign with care!"
+  },
+  {
+    "category": "settings",
+    "message": "Manage email templates"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to email templates. Assign with care!"
+  },
+  {
+    "category": "settings",
+    "message": "Manage blacklists"
+  },
+  {
+    "category": "settings",
+    "message": "Whether this subaccount can manage all operations related to blacklists. Assign with care!"
+  },
+  {
+    "category": "customers",
+    "message": "Update subaccount"
+  },
+  {
+    "category": "surveys",
+    "message": "The survey \"{surveyName}\" has been successfully created!"
+  },
+  {
+    "category": "survey_fields",
+    "message": "Hidden fields are rendered in the form but hidden, while None fields are simply not rendered in the form at all."
+  },
+  {
+    "category": "survey_fields",
+    "message": "New years range field"
+  },
+  {
+    "category": "surveys",
+    "message": "The survey \"{surveyName}\" has been successfully updated!"
+  },
+  {
+    "category": "surveys",
+    "message": "The survey \"{surveyName}\" has been successfully deleted!"
+  },
+  {
+    "category": "email_templates",
+    "message": "* if multiple recipients, separate the email addresses by a comma.<br \/> * the email tags will not be parsed while sending test emails.<br \/> * make sure you save the template changes before you send the test."
+  },
+  {
+    "category": "domain_blacklist",
+    "message": "View domains blacklist"
+  },
+  {
+    "category": "domain_blacklist",
+    "message": "Domains blacklist"
+  },
+  {
+    "category": "domain_blacklist",
+    "message": "Domain"
+  },
+  {
+    "category": "domain_blacklist",
+    "message": "Blacklist domains allows you to blacklist emails that belongs to a certain domain\/subdomain."
+  },
+  {
+    "category": "domain_blacklist",
+    "message": "Import from CSV file"
+  },
+  {
+    "category": "domain_blacklist",
+    "message": "If unsure about how to format your file, do an export first and see how the file looks."
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Stripe subscriptions"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Retrieve payments using stripe subscriptions"
+  },
+  {
+    "category": "support_tickets",
+    "message": "Open"
+  },
+  {
+    "category": "support_tickets",
+    "message": "Waiting staff reply"
+  },
+  {
+    "category": "support_tickets",
+    "message": "Waiting customer reply"
+  },
+  {
+    "category": "support_tickets",
+    "message": "Closed"
+  },
+  {
+    "category": "promo_codes",
+    "message": "i.e: 2021-11-27"
+  },
+  {
+    "category": "promo_codes",
+    "message": "i.e: 2021-12-27"
+  },
+  {
+    "category": "app",
+    "message": "Providers"
+  },
+  {
+    "category": "app",
+    "message": "Bulk email checker"
+  },
+  {
+    "category": "app",
+    "message": "Email List Verify"
+  },
+  {
+    "category": "app",
+    "message": "Everifier.org"
+  },
+  {
+    "category": "app",
+    "message": "Kickbox"
+  },
+  {
+    "category": "app",
+    "message": "Emailable"
+  },
+  {
+    "category": "app",
+    "message": "Zerobounce"
+  },
+  {
+    "category": "email_verification",
+    "message": "Email verification"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Subscribe by email"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Common"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "The absolute path to the pipe file is: {path}."
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "The relative path to the pipe file is: {path}."
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "here"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Before proceeding any further, please read the setup guide located {here}."
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Parse the SUBJECT header from the incoming emails"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Parse the TO header from the incoming emails"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Parse BOTH of the above"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Email"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "Parse header"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "The email address where incoming emails will be piped to"
+  },
+  {
+    "category": "subscribe_by_email",
+    "message": "See the info about header parsing"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Stripe subscriptions payment gateway"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Please do not forget to add the webhook url into your Stripe dashboard, this is maybe the most important thing you have to do, without it, customers will not be assigned to customer groups."
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "The webhook url that you have to add is: {url}"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Please note that {here} you have a screenshot showing how the webhook has to be added and what event type you must select."
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Subscriptions are created on a monthly basis, so please make sure your customer groups sending quota targets the monthly time unit, this is very important."
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "test"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "live"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Test secret key"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Test publishable key"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Live secret key"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Live publishable key"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Expiration move to group"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Mode"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Whether to move the customer in this group when the subscription ends"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Whether the payments are live or run in test mode"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "Whether this gateway is enabled and can be used for payments processing"
+  },
+  {
+    "category": "payment_gateway_stripe_subscriptions",
+    "message": "The sort order for this gateway"
+  },
+  {
+    "category": "payment_gateway_stripe",
+    "message": "test"
+  },
+  {
+    "category": "payment_gateway_stripe",
+    "message": "live"
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "Custom subscriber attachment"
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "Common"
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "You have to set the absolute path to the storage folder where you will upload attachments. By default it is: {path}"
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "After you set the storage folder, inside it, you can upload your subscriber specific attachments but make sure you create subfolders and you upload the attachments in these subfolders."
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "For example, you can have following structure:"
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "Then in the campaign setup step, you will be able to select the \"{folder}\" folder as the folder from where the attachments will be loaded. Also, you will be able to select which custom field represents the file name."
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "Storage folder"
+  },
+  {
+    "category": "custom_subscriber_attachment",
+    "message": "The storage folder where the attachment folders will be created"
+  },
+  {
+    "category": "payment_gateway_paypal",
+    "message": "sandbox"
+  },
+  {
+    "category": "payment_gateway_paypal",
+    "message": "live"
+  },
+  {
+    "category": "tour",
+    "message": "Tour"
+  },
+  {
+    "category": "tour",
+    "message": "Common"
+  },
+  {
+    "category": "tour",
+    "message": "Slideshows"
+  },
+  {
+    "category": "recaptcha",
+    "message": "Enabled for public block email form"
+  },
+  {
+    "category": "recaptcha",
+    "message": "Whether the feature is enabled for public block email form"
+  },
+  {
+    "category": "ip_location_maxmind",
+    "message": "Ip location service from MaxMind.com"
+  },
+  {
+    "category": "ip_location_maxmind",
+    "message": "This product includes GeoLite2 data created by MaxMind, available from {from}"
+  },
+  {
+    "category": "email_verification",
+    "message": "Email verification provider providers"
+  },
+  {
+    "category": "email_verification",
+    "message": "Email verification providers"
+  },
+  {
+    "category": "email_verification",
+    "message": "Check email address validity using Emailable service."
+  },
+  {
+    "category": "email_verification",
+    "message": "Name"
+  },
+  {
+    "category": "email_verification",
+    "message": "Description"
+  },
+  {
+    "category": "email_verification",
+    "message": "Enabled"
+  },
+  {
+    "category": "app",
+    "message": "View settings"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Cookie consent"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Bottom"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Bottom left"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Bottom right"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Top"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Top left"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Top right"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Message"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Position"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Theme"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Banner background color"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Button color"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "This website uses cookies to improve your experience."
+  },
+  {
+    "category": "cookie_consent",
+    "message": "The message that will appear on your cookie consent banner"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Where the cookie consent banner will appear"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "The theme of the cookie consent banner"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Select background color"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Reset background color"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Select button color"
+  },
+  {
+    "category": "cookie_consent",
+    "message": "Reset button color"
+  },
+  {
+    "category": "ckeditor",
+    "message": "Enable the editor"
+  },
+  {
+    "category": "ckeditor",
+    "message": "File manager theme"
+  },
+  {
+    "category": "ckeditor",
+    "message": "Whether to enable the editor"
+  },
+  {
+    "category": "campaigns",
+    "message": "This campaign will target approximately {count} subscribers."
+  },
+  {
+    "category": "campaigns",
+    "message": "You have reached the maximum number of allowed active campaigns."
+  },
+  {
+    "category": "ip_location_maxmind",
+    "message": "MaxMind.com"
+  },
+  {
+    "category": "ip_location_maxmind",
+    "message": "Offers IP location based on GeoLite2 database created by MaxMind"
+  },
+  {
+    "category": "email_verification",
+    "message": "Email List Verify"
+  },
+  {
+    "category": "email_verification",
+    "message": "Api key"
+  },
+  {
+    "category": "email_verification",
+    "message": "Api url"
+  },
+  {
+    "category": "email_verification",
+    "message": "Customer groups"
+  },
+  {
+    "category": "email_verification",
+    "message": "Check zones"
+  },
+  {
+    "category": "email_verification",
+    "message": "The api key for the service"
+  },
+  {
+    "category": "email_verification",
+    "message": "The api url for the service"
+  },
+  {
+    "category": "email_verification",
+    "message": "Decide which customer groups can make use of this extension. If no group is selected, then all customers can use it. Please note that customers must use their own service credentials to validate the emails."
+  },
+  {
+    "category": "email_verification",
+    "message": "Select the zones where email validation will run. If no zone is selected, then validation will run everywhere."
+  },
+  {
+    "category": "email_verification",
+    "message": "{service} is a email validation service that helps detecting bad email addresses."
+  },
+  {
+    "category": "email_verification",
+    "message": "If you enable this extension, your customers will be able to use their own Email List Verify info for validating their own emails."
+  },
+  {
+    "category": "email_verification",
+    "message": "Zerobounce"
+  },
+  {
+    "category": "email_verification",
+    "message": "If you enable this extension, your customers will be able to use their own Zerobounce info for validating their own emails."
+  },
+  {
+    "category": "email_verification",
+    "message": "Kickbox"
+  },
+  {
+    "category": "email_verification",
+    "message": "If you enable this extension, your customers will be able to use their own Kickbox info for validating their own emails."
+  },
+  {
+    "category": "email_verification",
+    "message": "Everifier.org"
+  },
+  {
+    "category": "email_verification",
+    "message": "If you enable this extension, your customers will be able to use their own Everifier.org info for validating their own emails."
+  },
+  {
+    "category": "email_verification",
+    "message": "Bulk Email Checker"
+  },
+  {
+    "category": "email_verification",
+    "message": "If you enable this extension, your customers will be able to use their own Bulk Email Checker info for validating their own emails."
+  },
+  {
+    "category": "email_verification",
+    "message": "Emailable"
+  },
+  {
+    "category": "email_verification",
+    "message": "If you enable this extension, your customers will be able to use their own Emailable info for validating their own emails."
+  },
+  {
+    "category": "user_groups",
+    "message": "Campaignactivitymapextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Cookieconsentextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Emailverificationextbackendbulkemailchecker"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for bulk email checker settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Emailverificationextbackendemaillistverify"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for email list verify settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Emailverificationextbackendemailable"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for the checker co settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Emailverificationextbackendeverifierorg"
+  },
+  {
+    "category": "user_groups",
+    "message": "Emailverificationextbackendkickbox"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for Kickbox settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Common providers"
+  },
+  {
+    "category": "user_groups",
+    "message": "Emailverificationextbackendproviders"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for email providers providers."
+  },
+  {
+    "category": "user_groups",
+    "message": "Emailverificationextbackendzerobounce"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for Zerobounce settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Htmlblocksextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Iplocationmaxmindextbackendsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Controller file for service settings."
+  },
+  {
+    "category": "user_groups",
+    "message": "Paymentgatewayofflineextsettings"
+  },
+  {
+    "category": "user_groups",
+    "message": "Subscribebyemailextbackendsettings"
+  },
+  {
+    "category": "campaigns",
+    "message": "Please note, once you select a template, the existing content of the campaign template will be overridden by the one you have selected.<br \/> If you don't want this, then just click on the cancel button and you will be redirect back to the inital template page."
+  },
+  {
+    "category": "campaigns",
+    "message": "Since this is an Autoresponder campaign, the recipients count will be adjusted while the campaign is running."
+  },
+  {
+    "category": "campaigns",
+    "message": "For Autoresponders it is perfectly normal for the number of recipients to be 0."
+  },
+  {
+    "category": "campaigns",
+    "message": "By default, Autoresponders target only subscribers added to your email list after the Autoresponder itself has been created."
+  },
+  {
+    "category": "campaigns",
+    "message": "If you need to target more subscribers from the start, include imported and\/or current subscribers."
+  },
+  {
+    "category": "campaigns",
+    "message": "View send groups"
+  },
+  {
+    "category": "campaigns",
+    "message": "Send groups"
+  },
+  {
+    "category": "campaigns",
+    "message": "Create new campaign send group"
+  },
+  {
+    "category": "campaigns",
+    "message": "Update send group"
+  },
+  {
+    "category": "campaigns",
+    "message": "Update campaign send group"
+  },
+  {
+    "category": "promo_codes",
+    "message": "i.e: 2021-11-29"
+  },
+  {
+    "category": "promo_codes",
+    "message": "i.e: 2021-12-29"
+  }
+]

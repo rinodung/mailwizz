@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /api/
+Disallow: /backend/
+Disallow: /customer/
+
+Allow: /frontend/assets/
+Disallow: /frontend/
+
+Disallow: /index.php/lists/
+Disallow: /lists/
+Disallow: /campaigns/
+Disallow: /index.php/campaigns/
